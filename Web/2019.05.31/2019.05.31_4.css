@@ -1,0 +1,49 @@
+/* 실습예제 스타일*/
+#title {
+    background-color : orange;
+    width : 200px;
+    height : 110px;
+    border : solid 1px black;
+    text-align : center;
+    margin-left : 10px;
+    clear : both;
+    float : left;
+}
+#d1 {
+    float : left;
+    width : 200px;
+    height : 110px;
+    margin-left : 10px;
+}
+#d2 {
+    clear : both;
+    float : left;
+    width : 200px;
+    height : 110px;
+    margin-left : 10px;
+    margin-top : 10px
+}
+#d3 {
+    float : left;
+    width : 200px;
+    height : 110px;
+    margin-left : 10px;
+    margin-top : 10px;
+}
+h1 {
+    clear : both;
+}
+a:link {            /*가상 클래스, 기본 상태*/
+    text-decoration : none;
+    background-color : #FFFFB0;
+}
+a:visit {           /*방문 후 상태*/
+    color : blue;
+}
+a:hover {           /*커서를 올려둘 때의 상태*/
+    color : crimson;
+    background-color : lightpink;
+}
+a:active {          /*클릭할 때의 상태*/
+    color : green;
+}

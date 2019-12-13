@@ -1,0 +1,24 @@
+div {
+    width : 100px;
+    height : 100px;
+    float : left;
+    margin-left : 10px;
+}
+#cir1 {
+    background-color : bisque;
+    border-top-right-radius : 10px;
+    border-bottom-left-radius : 10px;
+    border-bottom-right-radius : 100px;
+}
+#cir2 {
+    background-color : orange;
+    border-radius : 0px 100px;
+}
+#cir3 {
+    background-color : green;
+    border-radius : 100px 0px;
+}
+#cir4 {
+    background-color : purple;
+    border-radius : 50%;
+}

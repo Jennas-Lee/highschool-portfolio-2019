@@ -1,0 +1,35 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menubar {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    flex: 25%;
+    padding: 20px;
+}
+.col1 {
+    background-color: skyblue;
+}
+.col2 {
+    background-color: orange;
+}
+.col3 {
+    background-color: lightyellow;
+}
+.col4 {
+    background-color: green;
+}
+@media screen and (max-width: 992px) {
+    .col {
+        flex: 50%;
+    }
+}@media screen and (max-width: 600px) {
+    .col {
+        flex: 100%;
+    }
+}

@@ -1,0 +1,59 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tran {
+    background-color: #aba;
+}
+.tran img {
+    transform: translateY(20px);
+    transform: rotate(45deg);
+    transform: scale(0.3);    /*동시에 적용되지 않음*/
+}
+.tran2 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: red;
+    border-radius: 0px;
+/*
+    transition-property: background-color, border-radius;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    transition: all 1s linear 0.5s;
+*/
+    transition: all linear;
+}
+.tran2:hover {
+    background-color: blue;
+    border-radius: 50%;
+}
+.tran3 div {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.tran3:hover div {
+    height: 400px;
+}
+.tran3 .linear {
+    transition: 2s linear;
+}
+.tran3 .ease {
+    transition: 2s ease;
+}
+.tran3 .ease-in {
+    transition: 2s ease-in;
+}
+.tran3 .ease-out {
+    transition: 2s ease-out;
+}
+.tran3 .ease-in-out {
+    transition: 2s ease-in-out;
+}

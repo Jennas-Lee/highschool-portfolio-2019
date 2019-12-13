@@ -1,0 +1,49 @@
+@charset "UTF-8";
+* {
+    margin : 0;
+    padding : 0;
+}
+body {
+    margin : 0 auto;
+    width : 1280px;
+}
+header {
+    width : 1280px;
+    height : 150px;
+}
+#top {
+    background-color : #00ffff;
+    height : 100px;
+}
+#head_nav {
+    background-color : #1E90FF;
+    height : 50px;
+}
+#main {
+    width : 1280px;
+    height : 1500px;
+}
+#contents1, #contents3 {
+    background-color : #4169E1;
+    height : 500px;
+}
+#contents2 {
+    background-color : #1e90ff;
+    height : 100px;
+}
+#contents4 {
+    background-color : #3682B4;
+    height : 400px;
+}
+footer {
+    width : 1280px;
+    height : 200px;
+}
+#foot_nav {
+    background-color : #20B2AA;
+    height : 50px;
+}
+#info {
+    background-color : #2E8B57;
+    height : 150px;
+}

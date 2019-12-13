@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>실습예제 2</title>
+    <style>
+        table, th, td { border : solid 1px;
+                    border-collapse : collapse;
+                    border-color : black;
+                    text-align : center;
+                    width : 500px;}
+    </style>
+</head>
+<body>
+    <table>
+        <caption>세명컴퓨터고등학교 학과</caption>
+        <col style="background-color:yellow">
+        <colgroup span="2" style="background-color:azure"></colgroup>
+        <thead style="background-color:antiquewhite">
+            <tr>
+                <th>학과명</th>
+                <th>학급수</th>
+                <th>총원</th>
+            </tr>
+        </thead>
+        
+        <tdoby>
+            <tr>
+                <td>스마트보안솔루션과</td>
+                <td>3</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>디바이스소프트웨어과</td>
+                <td>2</td>
+                <td>52</td>
+            </tr>
+            <tr>
+                <td>인공지능소프트웨어과</td>
+                <td>2</td>
+                <td>52</td>
+            </tr>
+            <tr>
+                <td>게임소프트웨어과</td>
+                <td>2</td>
+                <td>52</td>
+            </tr>
+        </tdoby>
+        
+        <tfoot style="background-color:brown">
+            <tr>
+                <td colspan="3" style="color:white">총원: 234명</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

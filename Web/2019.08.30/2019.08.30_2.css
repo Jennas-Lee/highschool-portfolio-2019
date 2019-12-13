@@ -1,0 +1,36 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+header {
+    background-color : #CCCCCC;
+    width : 800px;
+    height : 100px;
+}
+main {
+    width : 800px;
+    height : 300px;
+}
+#left {
+    background-color : yellow;
+    width : 150px;
+    height : 300px;
+    float : left;
+}
+#main {
+    background-color : yellowgreen;
+    width : 500px;
+    height : 300px;
+    float : left;
+}
+#right {
+    background-color : yellow;
+    width : 150px;
+    height : 300px;
+    float : left;
+}
+footer {
+    background-color : #CCCCCC;
+    width : 800px;
+    height : 100px;
+}

@@ -1,0 +1,23 @@
+a:link { text-decoration : none;
+         color : aqua;
+}
+
+a:visited { color : red;
+}
+
+a:hover { color : chartreuse;
+          background-color : beige;
+          font-size : 1.4em;
+}
+
+a:active { color : white;
+}
+
+input:focus { border : solid 3px #CD853F;
+}
+
+body { background-image : url(img/doraemon.jpg);
+       background-repeat : no-repeat;            /*반복 설정*/
+       background-position : right top;          /*이미지 위치*/
+       background-attachment : fixed;            /*스크롤 했을 때 내려가지 않고 고정됨*/
+}

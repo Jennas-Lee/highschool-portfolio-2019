@@ -1,0 +1,46 @@
+* {
+    margin : 0px;
+    padding : 0px;
+}
+#intro {
+    display:inline;
+}
+.int {
+    display:inline;
+    list-style-type : none;
+    
+}
+#intro {
+    margin-top : 20px;
+    margin-left : 20px;
+    
+}
+img {
+/*    display:inline;*/
+    margin-top : 20px;
+    margin-bottom : 20px;
+}
+hr {
+    width : 750px;
+}
+h1 {
+    margin-top : 30px;
+}
+div {
+    background-color : #f6fdf7;
+    width : 400px;
+    margin : 20px;
+    padding : 10px;
+    border : solid 1px #bcd3be;
+}
+#warn {
+    width : 700px
+}
+h2{
+    margin-top : 20px;
+}
+.traffic {
+    display:block;
+    list-style-image : url(bulit_green.gif);}
+    margin-left : 300px;
+}

@@ -1,0 +1,13 @@
+h1 {font-size : 40px;
+    color : aquamarine;
+    text-shadow : 3px 3px 3px #666666;
+    text-align : center;
+}
+
+p {font-family : "맑은고딕", "돋움";
+    font-weight : bold;
+    line-height : 180%;
+    color : #444444;
+    text-decoration : underline;
+    font-size : 18px;
+}

@@ -1,0 +1,27 @@
+* {
+    margin : 0px;
+    padding : 0px;
+}
+#parent {
+    border : 5px black solid;
+    width : 500px;
+    height : 300px;
+    margin : 50px 0 0 50px;
+    position : relative;
+}
+#son1, #son2, #son3 {
+    width : 80px;
+    height : 80px;
+}
+#son1 {
+    background-color : red;
+}
+#son2 {
+    background-color : yellow;
+    position : absolute;
+    left : 100px;
+    top : 30px;
+}
+#son3 {
+    background-color : blue;
+}

@@ -1,0 +1,10 @@
+table, th, td {
+    border : solid 1px #e6ecd4;
+    border-collapse : collapse;
+    font-family : "굴림";
+    font-size : 12px;
+    color : #444444;
+    height : 30px;
+    text-align : center;
+    padding : 10px;
+}

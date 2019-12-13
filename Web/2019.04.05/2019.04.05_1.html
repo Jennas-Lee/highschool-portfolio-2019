@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>실습예제 1</title>
+    <style>
+        table, th, td { border : solid 1px;
+                border-collapse : collapse; }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>워크숍 일정표</caption>
+        <col style="background-color:yellow">
+        <colgroup span="2"></colgroup>
+        <thead style="background-color:blue">
+        <tr>
+            <th>날짜</th>
+            <th>시간</th>
+            <th>내용</th>
+        </tr>
+        </thead>
+        <tr>
+            <td rowspan="4">5/11(토요일)</td>
+            <td>18:00</td>
+            <td>저녁 식사</td>
+        </tr>
+        <tr>
+            <td>19:00</td>
+            <td>분과별 토의 주제 발제</td>
+        </tr>
+        <tr>
+            <td>20:00</td>
+            <td>각 분과별 분임 토의</td>
+        </tr>
+        <tr>
+            <td>20:30</td>
+            <td>휴식 및 자유토론</td>
+        </tr>
+        <tr>
+            <td rowspan="3">5/21(일요일)</td>
+            <td>07:00</td>
+            <td>분임 토의 결과 발표</td>
+        </tr>
+        <tr>
+            <td>08:00</td>
+            <td>아침식사</td>
+        </tr>
+        <tr>
+            <td>09:30</td>
+            <td>추진계획 가예산 보고</td>
+        </tr>
+        <tr>
+            <td colspan="3">토의 결과 공유</td>
+        </tr>
+    </table> 
+</body>
+</html>

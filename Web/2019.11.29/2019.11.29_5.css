@@ -1,0 +1,37 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.display {
+    width: 500px;
+    height: 335px;
+    margin: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.banner {
+    width: auto;
+    height: 335px;
+    animation: slide 20s infinite;
+    display: flex;
+}
+.banner img {
+    width: 500px;
+    height: auto;
+    flex: auto;
+}
+@keyframes slide {
+    0% { margin-left: 0; }
+    10% { margin-left: -100%; }
+    20% { margin-left: -200%; }
+    30% { margin-left: -300%; }
+    40% { margin-left: -400%; }
+    50% { margin-left: -500%; }
+    60% { margin-left: -600%; }
+    70% { margin-left: -700%; }
+    80% { margin-left: -800%; }
+    90% { margin-left: -900%; }
+    100% { margin-left: 0; }
+}

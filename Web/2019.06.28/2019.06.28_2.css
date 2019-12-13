@@ -1,0 +1,17 @@
+#text {
+    border : solid 2px #666666;
+    margin : 20px;
+    padding : 10px;
+}
+.illust {
+    width : 270px;
+    margin : 10px;
+    float : right;
+}
+body {
+    font-family : "맑은 고딕", "돋움";
+}
+.caption {
+    color : chocolate;
+    text-align : center;
+}

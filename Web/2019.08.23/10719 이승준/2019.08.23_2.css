@@ -1,0 +1,50 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+header {
+    width : 800px;
+    height : 100px;
+    background-color : #2D3A4B;
+}
+#logo {
+    position : absolute;
+    top : 30px;
+    left : 30px;
+}
+#top_menu {
+    position : absolute;
+    top : 10px;
+    left : 600px;
+    font-size : 11px;
+}
+#menu {
+    font-size : 20px;
+    position : absolute;
+    top : 45px;
+    left : 170px;
+}
+#menu li {
+    margin-left : 25px;
+}
+ul li {
+    list-style-type : none;
+    display : inline;
+    color : #FFF;
+}
+main {
+    width : 800px;
+}
+#banner1 {
+    width : 400px;
+    display : inline;
+    margin-left : 50px;
+}
+#banner2 {
+    width : 400px;
+    display : inline;
+    margin-left : 50px;
+}
+footer, footer img {
+    width : 800px;
+}

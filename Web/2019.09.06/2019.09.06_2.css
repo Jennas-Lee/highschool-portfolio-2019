@@ -1,0 +1,29 @@
+@charset "UTF-8";
+* {
+    margin : 0;
+    padding : 0;
+}
+.container {
+    background-color : darkgray;
+    width : 500px;
+    height : 200px;
+    border-radius : 15px;
+    display : flex;
+}
+.item {
+    border-radius : 15px;
+    text-align : center;
+    font-size : 20px;
+}
+#item_a {
+    background-color : orange;
+    flex : 1;
+}
+#item_b {
+    background-color : skyblue;
+    flex : 0 0 300px;
+}
+#item_c {
+    background-color : yellow;
+    flex : 1;
+}

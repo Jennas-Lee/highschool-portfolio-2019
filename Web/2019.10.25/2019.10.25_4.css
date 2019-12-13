@@ -1,0 +1,29 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    /*border까지 박스 크기에 반영*/
+    list-style-type: none;
+}
+.menubar {
+    overflow: hidden;
+    background-color: #333;
+}
+.menubar a {
+    text-decoration: none;
+    color: #000;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align : center;
+    padding: 14px 16px;
+}
+.menubar a:hover {
+    background-color: #555;
+    color: #8fde6f;
+}
+@media screen and (max-width: 600px) {
+    .menubar a {
+        float: none;
+    }
+}

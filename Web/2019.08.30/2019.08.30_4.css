@@ -1,0 +1,31 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+header {
+    background-color : #CCCCCC;
+    width : 100%;
+    height : 100px;
+}
+main {
+    width : 100%;
+    height : 400px;
+}
+aside {
+    background-color : yellow;
+    width : 20%;
+    height : 400px;
+    float : left;
+}
+section {
+    background-color : yellowgreen;
+    width : 80%;
+    height: 400px;
+    float : left;
+}
+footer {
+    background-color : #CCCCCC;
+    width : 100%;
+    height : 100px;
+    clear : both;
+}

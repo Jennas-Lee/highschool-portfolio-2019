@@ -1,0 +1,9 @@
+th {
+    text-align : left;
+}
+
+.red {
+    text-decoration : underline;
+    font-weight : 900;
+    color : red;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>실습예제7</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>회원가입양식</legend>
+        <table>
+            <tr>
+                <td>-</td>
+                <td>아이디</td>
+                <td><input type="text" required autofocus></td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>비밀번호</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>비밀번호 확인</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>이름</td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>성별</td>
+                <td>
+                    <input type="radio" name="type" value="FM">여자
+                    <input type="radio" name="type" value="M" checked>남자
+                </td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>전화번호</td>
+                <td>
+                    <select>
+                        <option value="02">02</option>
+                        <option value="031">031</option>
+                        <option value="032">032</option>
+                        <option value="055">055</option>
+                        <option value="070">070</option>
+                        <option value="010">010</option>
+                        <option value="011">011</option>
+                    </select>
+                    -
+                    <input type="text" size="4">
+                    -
+                    <input type="text" size="4">
+                </td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>이메일</td>
+                <td>
+                    <input type="text">
+                    @
+                    <select>
+                        <option value="naver">naver.com</option>
+                        <option value="han">hanmail.net</option>
+                        <option value="gmail">gmail.com</option>
+                        <option value="nate">nate.com</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>자기소개</td>
+                <td>
+                    <textarea rows="10" cols="50" placeholder="자신의 장점 위주로 작성하세요"></textarea>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <input type="submit" value="가입">
+    <input type="reset" value="취소">
+</form>
+</body>
+</html>

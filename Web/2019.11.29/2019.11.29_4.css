@@ -1,0 +1,27 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img {
+    width: 100px;
+    height: 100px;
+    border: solid 1px blue;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url(img/f1.png);
+    background-repeat: no-repeat;
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes moving {
+    0% { margin-left: 20px; }
+    50% { margin-left: 120px;
+          margin-top: 80px;
+          background-image: url(img/f2.png); }
+    100% { margin-left: 200px;}
+}

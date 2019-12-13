@@ -1,0 +1,19 @@
+h1 {color : purple;
+    font-family : "Arial";
+    text-shadow : 3px 3px 6px #333333;
+    text-align : center;
+    font-size : 60px;
+}
+
+h2 {color : green;
+    font-size : 30px;
+    text-decoration : underline;
+}
+h4 {font-size : 20px;
+    font-style : italic;
+}
+p {color : #444444;
+    font-family : "돋움";
+    font-size : 14px;
+    line-height : 150%;
+}

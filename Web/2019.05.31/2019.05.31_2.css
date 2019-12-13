@@ -1,0 +1,13 @@
+#desert {
+    color : red;
+    font-weight : bold;
+}
+#dry {
+    color : blue;
+    font-weight : bold;
+}
+#leaf {
+    color : greenyellow;
+    text-decoration : underline;
+    font-style : italic;
+}

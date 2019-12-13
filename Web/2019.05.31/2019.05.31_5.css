@@ -1,0 +1,13 @@
+p {
+    background-color : #FFA500;
+    padding : 15px;
+    width : 200px;
+    text-align : center;
+}
+a:link {
+    color : maroon;
+    text-decoration : none;
+}
+p:hover {
+    background-color : #FF4500;
+}

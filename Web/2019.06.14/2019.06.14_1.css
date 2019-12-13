@@ -1,0 +1,23 @@
+table, th, td {
+    border : solid 1px #888888;
+    border-collapse : collapse;
+    text-align : center;
+}
+.title {
+    background-color : beige;
+    height : 30px;
+}
+th, td {
+    padding : 5px;
+    width : 80px;
+}
+.num {
+    color : #FF0099;
+    background-color : pink;
+    text-decoration : underline;
+    font-weight : bold;
+    width : 100px;
+}
+.time {
+    width : 100px;
+}

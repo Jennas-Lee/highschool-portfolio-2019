@@ -1,0 +1,21 @@
+div {
+    font-family : "바탕";
+    color : #444444;
+    border : solid 1px;
+}
+h3 {
+    font-size : 20px;
+    color : #222222
+}
+#span1 {
+    color : red;
+    font-weight : bold;
+}
+.span2 {
+    color : blue;
+    text-decoration : underline;
+}
+#span3 {
+    color : red;
+    font-weight : bold;
+}
